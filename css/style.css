@@ -1,0 +1,43 @@
+body {
+    background : url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.container {
+    width : 70%;
+    margin : 0 auto;
+    background : rgba(233, 150, 122,0.6);
+    text-align : center;
+    border-radius : 10px;
+    padding : 10px;
+    font-family : "Baskerville Old Face",serif;
+}
+
+
+
+.container img,iframe {
+    width : 100%;
+    padding : 10px 0 0 0;
+    border-radius : 15px;
+    border-width: 0;
+}
+
+
+
+footer {
+    margin : 20px 0 0 0;
+    background : white;
+    font-family : "Crimson Text","serif";
+    font-size : 1.25rem;
+    text-align : center;
+}
